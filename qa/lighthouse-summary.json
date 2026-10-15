@@ -1,0 +1,108 @@
+[
+  {
+    "name": "home-mobile",
+    "url": "http://127.0.0.1:3019/",
+    "date": "2026-10-15T09:24:24.138Z",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "performance": 90,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.9 s",
+      "largest-contentful-paint": "3.6 s",
+      "total-blocking-time": "30 ms",
+      "cumulative-layout-shift": "0"
+    },
+    "warnings": []
+  },
+  {
+    "name": "demo-mobile",
+    "url": "http://127.0.0.1:3019/demo",
+    "date": "2026-10-15T09:24:36.244Z",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "performance": 90,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.9 s",
+      "largest-contentful-paint": "3.6 s",
+      "total-blocking-time": "10 ms",
+      "cumulative-layout-shift": "0"
+    },
+    "warnings": []
+  },
+  {
+    "name": "home-desktop",
+    "url": "http://127.0.0.1:3019/",
+    "date": "2026-10-15T09:24:47.222Z",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.7 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0"
+    },
+    "warnings": []
+  },
+  {
+    "name": "demo-desktop",
+    "url": "http://127.0.0.1:3019/demo",
+    "date": "2026-10-15T09:24:58.751Z",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2 s",
+      "largest-contentful-paint": "0.8 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0"
+    },
+    "warnings": []
+  },
+  {
+    "name": "reduced-desktop",
+    "url": "http://127.0.0.1:3019/",
+    "date": "2026-10-15T09:25:10.269Z",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "accessibility": 100,
+      "memo-motion": 100
+    },
+    "metrics": {},
+    "motion": "{\"reduced\":true,\"pins\":0,\"unreadable\":[],\"checkedElements\":117,\"workflowFits\":true,\"noOverflow\":true,\"demoTabVisible\":true,\"staticTotals\":[\"$2,000\",\"$14,000\"],\"pausedAnimations\":true}",
+    "warnings": []
+  },
+  {
+    "name": "reduced-mobile",
+    "url": "http://127.0.0.1:3019/",
+    "date": "2026-10-15T09:25:20.888Z",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "accessibility": 100,
+      "memo-motion": 100
+    },
+    "metrics": {},
+    "motion": "{\"reduced\":true,\"pins\":0,\"unreadable\":[],\"checkedElements\":117,\"workflowFits\":true,\"noOverflow\":true,\"demoTabVisible\":true,\"staticTotals\":[\"$2,000\",\"$14,000\"],\"pausedAnimations\":true}",
+    "warnings": []
+  }
+]

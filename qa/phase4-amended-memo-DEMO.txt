@@ -1,0 +1,45 @@
+DEMO · SYNTHETIC DATA / CONCEPT PREVIEW
+MEMO-18 — Elmfield Repairs
+As of 14 Oct 2026
+Owner: Alex Rowan (fictional)
+Accountant: Mara Ellis (fictional)
+Review: Accountant review pending
+
+DECISION — ILLUSTRATIVE
+Scenario B selected. No external action is approved or executed.
+A: $34,000 − $12,000 − $18,000 = $4,000 Friday cash.
+B: $34,000 − $18,000 = $16,000 Friday cash. Supplier bill remains unpaid.
+
+SOURCE REFERENCES — SYNTHETIC
+CASH-01: bank.csv, row 1, 14 Oct 2026, original opening $32,000.
+PY-17: payroll.csv, row 17, $18,000, due 23 Oct 2026.
+VB-31: payables.csv, row 31, $12,000.
+AR-205: receivables.csv, row 205, $15,000, expected 27 Oct 2026; NOT GUARANTEED.
+Invoice from Elmfield Repairs to Brightwater Housing Ltd.
+
+ASSUMPTIONS — ILLUSTRATIVE
+Opening scenario assumption: $34,000. Original source is unchanged.
+No other cash movements are assumed. Friday cash never includes the later receivable.
+Receipt sensitivity: delayed / absent branch active.
+Tuesday A range: $4,000–$19,000. Receipt absent → received. B supplier remains unpaid.
+Tuesday B range: $16,000–$31,000. Receipt absent → received. B supplier remains unpaid.
+Illustrative scenario range, not a probability.
+
+AMENDMENT TRAIL — SYNTHETIC
+08:30 UTC | Demo import | Synthetic packet imported
+Accounting, bank, receivables and payroll source references loaded. No live connection.
+08:45 UTC | Mara Ellis | Sources reconciled in the demo
+Opening cash tied to bank and accounting references. Future receipts remain assumptions.
+09:10 UTC | Mara Ellis | Timing scenarios drafted
+Compared supplier-before-payroll with supplier-held. AR-205 excluded from both Friday balances.
+09:18 UTC | Mara Ellis | Receipt assumption corrected
+Unsupported 24 Oct draft date replaced with expected 27 Oct. Receipt date is an assumption, not confirmed cash.
+09:25 UTC | Alex Rowan | Owner review recorded
+Scenario B reviewed in this synthetic walkthrough. No transfer, posting or external instruction approved or executed.
+09:26 UTC | Mara Ellis | Opening-cash assumption amended
+$32,000 → $34,000. Source remains $32,000. Alternative opening-cash assumption for review. Review required again.
+09:27 UTC | Mara Ellis | Receipt sensitivity changed
+AR-205: delayed / not received. Friday balances exclude this receipt.
+
+DEMO · SYNTHETIC DATA / CONCEPT PREVIEW
+No transfers, accounting entries, live integrations or external sending. Not an operating product.

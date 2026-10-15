@@ -1,0 +1,4 @@
+import type {ReactNode} from "react";
+export function Paper({children,className="",id}:{children:ReactNode;className?:string;id?:string}) { return <section id={id} className={`paper ${className}`}><div className="paper-grain" aria-hidden="true"/>{children}</section>; }
+export function PaperClip(){return <svg className="paperclip" width="48" height="116" viewBox="0 0 48 116" fill="none" aria-hidden="true"><path d="M32 82V24a10 10 0 0 0-20 0v65a15 15 0 0 0 30 0V18a19 19 0 0 0-38 0v65" stroke="#657078" strokeWidth="5" strokeLinecap="round"/><path d="M32 82V24a10 10 0 0 0-20 0v65a15 15 0 0 0 30 0V18a19 19 0 0 0-38 0v65" stroke="#CFCEC3" strokeWidth="2" strokeLinecap="round"/></svg>}
+export function Arrow(){return <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="1.4"/></svg>}
