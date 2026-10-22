@@ -1,0 +1,11 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+# Never expose Git metadata if the hosting checkout lives in public_html.
+RewriteRule (^|/)\.git(?:/|$) - [F,L]
+# Check exported pages before directories: Next also exports RSC directories.
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+# Existing assets, including Next's RSC payloads, are served unchanged.
