@@ -1,0 +1,55 @@
+1:"/_next/static/chunks/0umf92h1sb77c.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"/_next/static/chunks/2n5qeheznvl4u.js"
+5:I[22016,["$1","$4"],""]
+6:"$Sreact.fragment"
+7:I[39756,["$1"],"default"]
+8:"/_next/static/chunks/3x58lkeyvnxub.js"
+9:I[8821,["$1","$8"],"default"]
+a:I[37457,["$1"],"default"]
+11:"/_next/static/chunks/0qxh8wgarkkhk.js"
+12:"/_next/static/chunks/14sasrsunwdd8.js"
+13:I[86818,["$1","$11","$12"],"MemoPage"]
+18:"ViewportBoundary"
+19:I[97367,["$1"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$1"],"$1a"]
+1c:"$Sreact.suspense"
+:HL["/brand/logo.svg","image"]
+:HL["/_next/static/chunks/02-jz_4s_im67.css","style"]
+:HL["/paper-grain.svg","image",{"fetchPriority":"high"}]
+c:X
+f:X
+f:C
+10:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$6","c",{"children":[[["$","$L13","about",{"page":{"slug":"about","folio":"06","eyebrow":"ABOUT RUNWAYMEMO","title":"Make the reasoning visible.","intro":"RunwayMemo is a research-stage concept for a weekly cash decision memo reviewed by an external accountant. The printed memo is a working document: something to inspect, correct and hand over.","subject":"Why this concept exists","note":"A product hypothesis, with an explicit test of value.","sections":[{"label":"VISION","title":"An evidence-linked decision, not an opaque action.","body":"Make the weekly accountant-reviewed cash decision loop reviewable. Keep human owners in authority and allow proposed changes to be revised before any real-world action."},{"label":"MISSION","title":"Prove a narrow job first.","body":"Start with permissioned accounting, bank, receivables and payroll CSVs for two clients. Use manual accountant-reviewed weekly briefs to establish measurable incremental value before considering more integrations or any broader system."},{"label":"WHAT IS KNOWN","title":"An existing category. An unproven distinction.","body":"The original research brief grades evidence for the existing forecasting category as medium, and evidence for agentic action differentiation as low. These are research judgements, not independent product validation.","items":[{"title":"Existing substitutes","body":"Fathom, Jirav, an accountant or fractional CFO, QuickBooks/Xero reports and spreadsheet forecasts already occupy adjacent parts of the workflow. Category overlap does not prove demand or superiority."},{"title":"Open questions","body":"Retention across owner cohorts, willingness to pay for reviewed decisions and distribution economics remain unproven."},{"title":"Expansion hypothesis","body":"Recurring accountant-mediated advisory could expand through vertical templates and integrations if retention and channel economics are demonstrated. SME counts alone are not evidence."}]},{"label":"CURRENT STATUS","title":"Honest about what has not happened.","body":"There are no demonstrated live integrations, real customers, validated demand, accepted prices or revenue claims in this preview. The demo uses invented records only. RunwayMemo is the selected name; domain ownership and trademark clearance are not asserted."}]}}]],["$L14","$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$c"}}]]
+d:[["children",{"s":{"n":"page","t":"d","k":"about","s":["demo","modules","og.png","sign-in"]},"h":65632,"d":{"r":["$","$6","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@e","v":"$f","s":"$c"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":131156,"d":{"r":["$","$L3",null,{"loading":[["$","main","l",{"className":"state-desk","children":[["$","div",null,{"className":"demo-tab","children":"DEMO · SYNTHETIC DATA"}],["$","section",null,{"className":"paper state-paper","children":[["$","$L5",null,{"href":"/","aria-label":"RunwayMemo home","children":["$","img",null,{"src":"/brand/logo.svg","width":"195","height":"29","alt":"RunwayMemo"}]}],["$","p",null,{"className":"mono state-label","children":["FILE IN TRANSIT"," · CONCEPT PREVIEW"]}],["$","h2",null,{"children":"Opening the memo…"}],["$","p",null,{"children":"Bringing the next sheet to your desk."}],["$","div",null,{"className":"state-loading","role":"status","aria-live":"polite","children":[["$","span",null,{"className":"sr-only","children":"Loading the next page"}],["$","i",null,{}],["$","i",null,{}],["$","i",null,{}]]}],["$","footer",null,{"className":"mono","children":["RUNWAYMEMO / A WORKING DOCUMENT",["$","br",null,{}],"Concept preview, not an operating product."]}]]}]]}],[],[["$","script","script-0",{"src":"/_next/static/chunks/2n5qeheznvl4u.js","async":true}]]],"children":["$","$6","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/02-jz_4s_im67.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0umf92h1sb77c.js","async":true}]],["$","html",null,{"lang":"en","data-scroll-behavior":"smooth","children":[["$","head",null,{"children":["$","link",null,{"rel":"preload","href":"/paper-grain.svg","as":"image","fetchPriority":"high"}]}],["$","body",null,{"className":"CDO0_G_variable OS3iYq_variable _4hb8MG_variable","children":["$","$L7",null,{"parallelRouterKey":"children","error":"$9","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/3x58lkeyvnxub.js","async":true}]],"template":["$","$La",null,{}],"notFound":[["$","main",null,{"className":"state-desk","children":[["$","div",null,{"className":"demo-tab","children":"DEMO · SYNTHETIC DATA"}],["$","section",null,{"className":"paper state-paper","children":[["$","$L5",null,{"href":"/","aria-label":"RunwayMemo home","children":["$","img",null,{"src":"/brand/logo.svg","width":"195","height":"29","alt":"RunwayMemo"}]}],["$","p",null,{"className":"mono state-label","children":["404 / FILE NOT FOUND"," · CONCEPT PREVIEW"]}],["$","h1",null,{"children":"This page isn’t in the file."}],["$","p",null,{"children":"The address may have changed, or the page may not exist. Return to the memo or browse the product."}],["$","div",null,{"className":"hero-actions","children":["$undefined",["$","$L5",null,{"className":"button","href":"/","children":"Return to the memo"}],["$","$L5",null,{"className":"button button-secondary","href":"/product","children":"Browse the product"}]]}],["$","footer",null,{"className":"mono","children":["RUNWAYMEMO / A WORKING DOCUMENT",["$","br",null,{}],"Concept preview, not an operating product."]}]]}]]}],[]]}]}]]}]]}]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$6","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Make the reasoning visible. — RunwayMemo"}],["$","meta","1",{"name":"description","content":"RunwayMemo is a research-stage concept for a weekly cash decision memo reviewed by an external accountant. The printed memo is a working document: something to inspect, correct and hand over."}],["$","meta","2",{"name":"application-name","content":"RunwayMemo"}],["$","link","3",{"rel":"canonical","href":"https://www.runwaymemo.com/about"}],["$","meta","4",{"name":"format-detection","content":"telephone=no"}],["$","meta","5",{"property":"og:title","content":"Make the reasoning visible. — RunwayMemo"}],["$","meta","6",{"property":"og:description","content":"RunwayMemo is a research-stage concept for a weekly cash decision memo reviewed by an external accountant. The printed memo is a working document: something to inspect, correct and hand over."}],["$","meta","7",{"property":"og:url","content":"https://www.runwaymemo.com/about"}],["$","meta","8",{"property":"og:site_name","content":"RunwayMemo"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:image","content":"https://www.runwaymemo.com/og.png"}],["$","meta","11",{"property":"og:image:width","content":"1200"}],["$","meta","12",{"property":"og:image:height","content":"630"}],"$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29"]}]}],null]}],"$L2a"]}],"p":"$@2b","v":null,"s":"$c"}},"a":"$@2c","u":"$@2d","b":"CBZriJKJ0--ySafZCv0tn"}
+2e:I[97367,["$1"],"OutletBoundary"]
+30:I[27201,["$1"],"IconMark"]
+14:["$","script","script-0",{"src":"/_next/static/chunks/0qxh8wgarkkhk.js","async":true}]
+15:["$","script","script-1",{"src":"/_next/static/chunks/14sasrsunwdd8.js","async":true}]
+16:["$","$L2e",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
+1d:["$","meta","13",{"property":"og:image:alt","content":"RunwayMemo printed memo: this week’s decision, reviewed before you act. Concept preview with synthetic data."}]
+1e:["$","meta","14",{"property":"og:type","content":"website"}]
+1f:["$","meta","15",{"name":"twitter:card","content":"summary_large_image"}]
+20:["$","meta","16",{"name":"twitter:title","content":"Make the reasoning visible. — RunwayMemo"}]
+21:["$","meta","17",{"name":"twitter:description","content":"RunwayMemo is a research-stage concept for a weekly cash decision memo reviewed by an external accountant. The printed memo is a working document: something to inspect, correct and hand over."}]
+22:["$","meta","18",{"name":"twitter:image","content":"https://www.runwaymemo.com/og.png"}]
+23:["$","meta","19",{"name":"twitter:image:alt","content":"RunwayMemo printed memo: this week’s decision, reviewed before you act. Concept preview with synthetic data."}]
+24:["$","meta","20",{"name":"twitter:image:width","content":"1200"}]
+25:["$","meta","21",{"name":"twitter:image:height","content":"630"}]
+26:["$","link","22",{"rel":"icon","href":"/favicons/favicon.svg","type":"image/svg+xml"}]
+27:["$","link","23",{"rel":"icon","href":"/favicons/favicon.ico"}]
+28:["$","link","24",{"rel":"apple-touch-icon","href":"/favicons/apple-touch-icon.png"}]
+29:["$","$L30","25",{}]
+2a:["$","meta",null,{"name":"next-size-adjust","content":""}]
+c:300
+2f:null
+2d:true
+c:C
+2c:0
+e:"$undefined"
+b:"$undefined"
+2b:"$undefined"
+17:"$undefined"
