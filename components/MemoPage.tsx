@@ -3,7 +3,7 @@ import {SiteLink as Link} from "./SiteLink";
 import {useEffect,useRef,useState} from "react";
 import {type MemoPageData,modulePages} from "@/data/site-pages";
 import {demo,dateLabel,money,fridayCash} from "@/data/demo";
-import {SiteNavigation,SiteDirectoryFooter} from "./SiteNavigation";
+import {SiteNavigation,SiteDirectoryFooter,CompanyAddress} from "./SiteNavigation";
 import {RoleWorkingPaper} from "./RoleWorkingPaper";
 import {PilotIntake} from "./PilotIntake";
 import {DemoLink} from "./DemoLink";
@@ -34,7 +34,7 @@ export function MemoPage({page}:{page:MemoPageData}){
   {page.faq&&<section className="inner-faq"><span className="eyebrow">BEFORE YOU DECIDE</span><h2>Keep the questions open.</h2><div className="faq-list">{page.faq.map(f=><details key={f.q}><summary>{f.q}<span aria-hidden="true">+</span></summary><p>{f.a}</p></details>)}</div></section>}
   {page.kind!=="contact"&&<section className="inner-next"><span className="mono">THE NEXT HANDOVER</span><h2>{page.offerId?"Test this recurring question.":"Bring the owner and accountant."}</h2><p>A bounded pilot would need both people, permissioned records and a purchase decision. This preview takes no payment or sensitive records.</p><Link href={contact} className="button" onClick={()=>track("pilot_request",{surface:"pilot",offer_id:page.offerId})}>Prepare a pilot request <Arrow/></Link><Link className="text-button" href={page.slug==="pilot"?"/controls":"/pilot"}>{page.slug==="pilot"?"Read the controls":"Read the pilot criteria"} <Arrow/></Link></section>}
   <div className="sheet-end mono"><span>CONCEPT PREVIEW / SYNTHETIC DATA</span><a href="#page-title">Back to the heading ↑</a></div></Paper>
-  <footer className="footer-complete"><div className="footer-top"><Link href="/" aria-label="RunwayMemo home"><img src="/brand/logo.svg" alt="RunwayMemo" width="195" height="29"/></Link><span className="file-closed">FILE CLOSED</span></div><SiteDirectoryFooter/><div className="footer-bottom"><p>Concept preview, not an operating product.<br/>No transfers or accounting entries.</p><Link href="/privacy">Privacy & deletion</Link></div></footer>
+  <footer className="footer-complete"><div className="footer-top"><Link href="/" aria-label="RunwayMemo home"><img src="/brand/logo.svg" alt="RunwayMemo" width="195" height="29"/></Link><span className="file-closed">FILE CLOSED</span></div><SiteDirectoryFooter/><CompanyAddress/><div className="footer-bottom"><p>Concept preview, not an operating product.<br/>No transfers or accounting entries.</p><Link href="/privacy">Privacy & deletion</Link></div></footer>
  </main></div>;
 }
 function ModuleIndex(){return <ol className="module-index">{modulePages.map(page=><li key={page.slug}><Link href={`/modules/${page.slug}`}><span className="mono">0{page.offerId}</span><div><h3>{page.title}</h3><p>{page.subject}</p></div><Arrow/></Link></li>)}</ol>}

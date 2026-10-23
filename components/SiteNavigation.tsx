@@ -7,6 +7,7 @@ import {navigationGroups} from "@/data/site-pages";
 import {Arrow} from "./Paper";
 import {DemoLink} from "./DemoLink";
 import {track} from "@/lib/analytics";
+import {companyAddress} from "@/data/company";
 
 export function SiteNavigation(){
  const slot=useRef<HTMLDivElement>(null);const [sticky,setSticky]=useState(false);
@@ -27,3 +28,4 @@ export function SiteNavigation(){
  return <div className="site-nav-slot" ref={slot}>{sticky?createPortal(header,document.body):header}</div>;
 }
 export function SiteDirectoryFooter(){const path=usePathname();return <div className="directory-footer">{navigationGroups.map(group=><div key={group.title}><h3>{group.title}</h3><ul>{group.links.map(link=><li key={link.href}><Link href={link.href} aria-current={path===link.href?"page":undefined}>{link.label}</Link></li>)}</ul></div>)}</div>}
+export function CompanyAddress(){return <address className="company-address"><span className="mono">RUNWAYMEMO / COMPANY ADDRESS</span>{companyAddress.map(line=><span key={line}>{line}</span>)}</address>}
